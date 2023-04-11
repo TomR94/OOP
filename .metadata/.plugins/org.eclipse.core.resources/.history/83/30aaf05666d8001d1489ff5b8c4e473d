@@ -1,0 +1,9 @@
+
+public class Frituurpan extends Product{
+	public int volume;
+	public void samenvatting() {
+		String samenvatting = "name = " + Name + "Price =" + Price + "electrisch?" + Electric + "waterbestendig?"
+				+ waterresistant + "het volume is "+ volume;
+		System.out.println(samenvatting());
+}
+}

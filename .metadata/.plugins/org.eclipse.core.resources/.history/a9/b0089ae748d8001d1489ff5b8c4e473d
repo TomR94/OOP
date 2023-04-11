@@ -1,0 +1,30 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World!");
+		
+		Product p = new Product ();
+		p.length = 12;
+		p.Name = "Plank";
+		p.Electric = false;
+		p.waterresistant = false;
+		p.Price = 32;
+		p.print_name();
+		p.print_price();
+		p.print_length();
+		
+		Product p2 = new Product();
+		p2.Name = "grotere plank";
+		p2.length = 13;
+		p2.Electric = false;
+		p2.waterresistant = false;
+		p2.Price = 35;
+		p2.print_name();
+		p2.print_price();
+		p2.print_length();
+		
+	}
+
+}

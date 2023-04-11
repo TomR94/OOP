@@ -1,0 +1,4 @@
+
+public class Frituurpan extends Product{
+	public int volume;
+}

@@ -1,0 +1,11 @@
+
+public class Wasmachine extends Product{
+	public int toerental;
+	public int aantalwasprogrammas;
+	
+	public String samenvatting2() {
+		String samenvatting2 = "name = " + Name + "Price =" + Price + "electrisch?" + Electric + "waterbestendig?"
+				+ waterresistant + toerental + aantalwasprogrammas;
+		return samenvatting2;
+	}
+}

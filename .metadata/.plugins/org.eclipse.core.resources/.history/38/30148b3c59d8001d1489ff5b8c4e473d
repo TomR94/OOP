@@ -1,0 +1,44 @@
+
+public class Product {
+	public String Name;
+	public int Price;
+	public boolean Electric;
+	public boolean waterresistant;
+	public int length;
+
+	public void print_name() {
+	System.out.println(Name);
+	}
+	public void print_price() {
+	System.out.println(Price+ " Euro");
+	}
+	public void print_length(){
+	System.out.println(length + " cm");
+	}
+	public void stelprijsin(int Price) {
+		this.Price = Price;
+	};
+	public void stellengtein(int length) {
+		this.length = length;
+	};
+	public void stelnaamin(String name) {
+		this.Name = name;
+	};
+	public String watisdenaam() {
+		return Name;
+	}
+	public int watisdelengte() {
+		return length;
+	}
+	public boolean ishetwaterbestendig() {
+		return waterresistant;
+	}
+	public String alleeigenschappen() {
+		return Name;	
+	}
+	public String samenvatting() {
+		String samenvatting = "name = " + Name + "Price =" + Price + "electrisch?" + Electric + "waterbestendig?" + waterresistant;
+			return samenvatting;
+	}
+
+}

@@ -1,0 +1,29 @@
+
+public class Product {
+	public String Name;
+	public int Price;
+	public boolean Electric;
+	public boolean waterresistant;
+	public int length;
+
+	public void print_name() {
+	System.out.println(Name);
+	}
+	public void print_price() {
+	System.out.println(Price);
+	}
+	public void print_length(){
+	System.out.println(length);
+	}
+	public void stelprijsin(int Price) {
+		this.Price = Price;
+	};
+	public void stellengtein(int length) {
+		this.length = length;
+	};
+	public void stelnaamin(String name) {
+		this.Name = name;
+	};
+	
+
+}
