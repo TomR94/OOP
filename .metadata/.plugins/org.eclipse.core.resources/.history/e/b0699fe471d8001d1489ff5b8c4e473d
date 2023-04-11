@@ -42,20 +42,19 @@ public class Application {
 		//Product p3 = new Product("TV");
 		
 		TV p4 = new TV();
-		//p4.resolutie = 1920;
-		//p4.Name = "Samsung HD";
-		p4.setName("Samsung HD");
-		System.out.println(p4.getResolutie());
-		System.out.println(p4.getName());
+		p4.resolutie = 1920;
+		p4.Name = "Samsung HD";
+		System.out.println(p4.resolutie);
+		System.out.println(p4.Name);
 		
 		Wasmachine p5 = new Wasmachine();
-			p5.setPrice(430);
-			//p5.setaantalwasprogrammas(5);
-		//	System.out.println(p5.getaantalwasprogrammas());
+			p5.Price= 430;
+			p5.aantalwasprogrammas=5;
+			System.out.println(p5.aantalwasprogrammas);
 		
 		Frituurpan p6 = new Frituurpan();
-			p6.setVolume(2);
-			System.out.println(p6.getVolume());
+			p6.volume= 2;
+			System.out.println(p6.volume);
 			System.out.println(p6.samenvatting());
 			System.out.println(p5.samenvatting());
 		System.out.println(p4.samenvatting());

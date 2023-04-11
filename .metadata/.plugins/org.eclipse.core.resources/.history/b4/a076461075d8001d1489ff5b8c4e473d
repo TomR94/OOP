@@ -3,7 +3,21 @@ public class Wasmachine extends Product {
 	private int toerental;
 	private int aantalwasprogrammas;
 
-	
+	public int gettoerental() {
+		return toerental;
+	}
+
+	public int settoerental(int toerental) {
+		this.toerental = toerental;
+	}
+
+	public int getaantalwasprogrammas() {
+	return aantalwasprogrammas;}
+
+	public int setaantalwasprogrammas(int aantalwasprogrammas) {
+		this.aantalwasprogrammas=aantalwasprogrammas;}
+	}
+
 	public String samenvatting() {
 		String samenvatting = "name = " + Name + "Price =" + Price + "electrisch?" + Electric + "waterbestendig?"
 				+ waterresistant + "het aantal toeren is "+ toerental +"het aantal wasprogrammas:"+ aantalwasprogrammas;

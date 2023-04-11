@@ -50,8 +50,8 @@ public class Application {
 		
 		Wasmachine p5 = new Wasmachine();
 			p5.setPrice(430);
-			//p5.setaantalwasprogrammas(5);
-		//	System.out.println(p5.getaantalwasprogrammas());
+			p5.setaantalwasprogrammas(5);
+			System.out.println(p5.getaantalwasprogrammas());
 		
 		Frituurpan p6 = new Frituurpan();
 			p6.setVolume(2);

@@ -1,10 +1,10 @@
 
 public abstract class Product {
-	protected String Name;
-	protected int Price;
-	protected boolean Electric;
-	protected boolean waterresistant;
-	protected int length;
+	private String Name;
+	private int Price;
+	private boolean Electric;
+	private boolean waterresistant;
+	private int length;
 
 	public String getName() {
 		return Name;
