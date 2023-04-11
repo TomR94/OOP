@@ -42,12 +42,13 @@ public class Application {
 		//Product p3 = new Product("TV");
 		
 		TV p4 = new TV();
-		p4.resolutie = 1920;
+		p4.resolutie = 2040;
 		p4.Name = "Samsung HD";
 		System.out.println(p4.resolutie);
 		System.out.println(p4.Name);
 		
 		Wasmachine p5 = new Wasmachine();
+			p5.Name = "BOSH";
 			p5.Price= 430;
 			p5.aantalwasprogrammas=5;
 			System.out.println(p5.aantalwasprogrammas);
